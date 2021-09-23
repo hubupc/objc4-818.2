@@ -166,7 +166,13 @@ https://opensource.apple.com/tarballs/
 ## 创建测试工程
 1. TARGETS 栏目底部点击加号，创建一个 macOS  Command Line Tool 工程 objc_test  
 2. TARGETS 栏目下选中 objc_test, 点击 Build Phases, 在 Dependencies 中添加依赖，选择objc 
-3. TARGETS 栏目下选中 objc_test，点击 Build Settings, 搜索 Signing， 在 Signing 下，将 Enable Hardened Runtime 由 YES 改为 NO。（若不修改此项， 调试 objc4-818.2 源代码，将不会命中断点）
+
+## 断点不生效的问题
+1. objc4-818.2 源代码 断点不生效：
+   TARGETS 栏目下选中 objc_test，点击 Build Settings, 搜索 Signing， 在 Signing 下，将 Enable Hardened Runtime 由 YES 改为 NO
+
+2. objc_test main.m 断点不生效：
+   TARGETS 栏目下选中 objc_test，点击 Build Phases 在 Compile Source 中，将 main.m 文件移至第一位
 
    **至此，可以调试 objc4-818.2 源码了**   
 
