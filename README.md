@@ -1,4 +1,4 @@
-
+*最新 objc4-824 版本的配置请参考[objc4-824](https://github.com/hubupc/objc4-824.git) *  
 ## 源码
 1. 下载地址  
 https://opensource.apple.com/tarballs/
