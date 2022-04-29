@@ -1,4 +1,4 @@
-/* 环境：Xcode 13.x.x，MacOS Monterey 12.3.x，请看最新配置 [objc4-838.1](https://github.com/hubupc/objc4-838.1)*/  
+*环境：Xcode 13.x.x，MacOS Monterey 12.3.x，请看最新配置 [objc4-838.1](https://github.com/hubupc/objc4-838.1)* 
 ## 源码
 1. 下载地址  
 https://opensource.apple.com/tarballs/
